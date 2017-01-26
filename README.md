@@ -43,7 +43,6 @@ shortway('r', callback)
 shortway('ctrl+9', callback)
 shortway('alt+a', callback)
 shortway('shift+space', callback)
-shortway('ctrl+alt+?', callback)
 ```
 
 #### callback
