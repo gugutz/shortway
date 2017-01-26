@@ -18,7 +18,7 @@ $ npm install --dev shortway
 import shortway from 'shortway'
 
 const spaceShortcut = shortway('ctrl+space')
-document.addEventListener('keyup')
+document.addEventListener('keyup', spaceShortcut)
 ```
 
 ## Supported Keys
