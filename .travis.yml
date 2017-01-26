@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - '4'
+  - '6'
+  - 'node'
+script:
+  - npm test
+  - npm run lint
+after_script:
+  - npm install --global coveralls
+  - npm run coveralls

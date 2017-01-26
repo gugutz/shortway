@@ -1,0 +1,43 @@
+{
+  "name": "shortway",
+  "version": "0.0.1",
+  "description": "A shortway to handle keyboard shortcuts.",
+  "main": "lib/shortway.js",
+  "scripts": {
+    "precommit": "npm test && npm run lint",
+    "prepush": "npm run precommit",
+    "test": "tape \"test/**/*.js\"",
+    "lint": "xo test/**/*.js lib/**/*.js",
+    "coveralls": "nyc npm test && nyc report --reporter=text-lcov | coveralls",
+    "test:watch": "tape-watch \"test/**/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiamsantos/shortway.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thiamsantos/shortway/issues"
+  },
+  "xo": {
+    "esnext": true,
+    "envs": [
+      "browser",
+      "node"
+    ],
+    "space": true,
+    "semicolon": false
+  },
+  "homepage": "https://github.com/thiamsantos/shortway#readme",
+  "author": "Thiago Santos",
+  "license": "MIT",
+  "dependencies": {
+    "array-includes": "^3.0.2"
+  },
+  "devDependencies": {
+    "husky": "^0.13.1",
+    "nyc": "^10.1.2",
+    "tape": "^4.6.3",
+    "tape-watch": "^2.2.4",
+    "xo": "^0.17.1"
+  }
+}
