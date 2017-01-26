@@ -15,6 +15,17 @@
     "type": "git",
     "url": "git+https://github.com/thiamsantos/shortway.git"
   },
+  "keywords": [
+    "keyboard",
+    "keybind",
+    "KeyboardEvent",
+    "events",
+    "sequence",
+    "shortcut",
+    "shortcuts",
+    "shortway",
+    "keyboard"
+  ],
   "bugs": {
     "url": "https://github.com/thiamsantos/shortway/issues"
   },
