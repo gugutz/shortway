@@ -21,6 +21,43 @@ const spaceShortcut = shortway('ctrl+space')
 document.addEventListener('keyup')
 ```
 
+## Supported Keys
+Shortway current supports ctrl, alt and shift along with the following shortcuts:
+
+- backspace
+- space
+- 0-9
+- a-z
+- f1-f12
+
+## API
+
+### shortway(command, callback)
+
+#### command
+A sequence of keys to be watched.
+
+##### Examples:
+```javascript
+shortway('r', callback)
+shortway('ctrl+9', callback)
+shortway('alt+a', callback)
+shortway('shift+space', callback)
+shortway('ctrl+alt+?', callback)
+```
+
+#### callback
+A callback to be executed when a sequence of keys is predded.
+
+##### Examples:
+```javascript
+const callback = e => {
+  console.log(e)
+}
+
+shortway('r', callback)
+```
+
 ## Contributing
 See the [contributing file](CONTRIBUTING.md).
 
