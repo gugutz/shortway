@@ -5,7 +5,7 @@
 [![David](https://img.shields.io/david/thiamsantos/shortway.svg)](https://david-dm.org/thiamsantos/shortway)
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
 
->A shortway to handle keyboard shortcuts.
+Tiny to library to handle keyboard shortcuts in the browser. Feel free to use it with any kind of keyboard events and attach them to any element that you want.
 
 ## Install
 This project uses [node](http://nodejs.org) and [npm](https://npmjs.com). Go check them out if you don't have them locally installed.
@@ -18,8 +18,13 @@ $ npm install --dev shortway
 ```javascript
 import shortway from 'shortway'
 
-const spaceShortcut = shortway('ctrl+space')
+const callback = (e) => {console.log(e)}
+
+const spaceShortcut = shortway('ctrl+space', callback)
 document.addEventListener('keyup', spaceShortcut)
+
+const customShortcut = shortway('ctrl+shift+left', callback)
+document.querySelector('input').addEventListener('keypress', customShortcut)
 ```
 
 ## Supported Keys
