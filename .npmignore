@@ -1,0 +1,5 @@
+test/
+.travis.yml
+.editoconfig
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
