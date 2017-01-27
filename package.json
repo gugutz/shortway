@@ -1,6 +1,6 @@
 {
   "name": "shortway",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "A shortway to handle keyboard shortcuts.",
   "main": "lib/shortway.js",
   "scripts": {
@@ -44,7 +44,9 @@
       "browser",
       "node"
     ],
-    "ignores": ["lib/shortway.umd.js"],
+    "ignores": [
+      "lib/shortway.umd.js"
+    ],
     "space": true,
     "semicolon": false
   },
