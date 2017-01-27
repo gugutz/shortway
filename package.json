@@ -1,6 +1,6 @@
 {
   "name": "shortway",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A shortway to handle keyboard shortcuts.",
   "main": "lib/shortway.js",
   "scripts": {
