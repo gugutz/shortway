@@ -16,10 +16,18 @@
     "url": "git+https://github.com/thiamsantos/shortway.git"
   },
   "keywords": [
+    "browser",
+    "events",
+    "key",
+    "keys",
+    "key",
+    "combos",
+    "binding",
     "keyboard",
     "keybind",
     "KeyboardEvent",
     "events",
+    "hotkeys",
     "sequence",
     "shortcut",
     "shortcuts",
@@ -41,7 +49,6 @@
   "homepage": "https://github.com/thiamsantos/shortway#readme",
   "author": "Thiago Santos",
   "license": "MIT",
-  "dependencies": {},
   "devDependencies": {
     "husky": "^0.13.1",
     "nyc": "^10.1.2",
