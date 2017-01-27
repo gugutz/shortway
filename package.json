@@ -41,9 +41,7 @@
   "homepage": "https://github.com/thiamsantos/shortway#readme",
   "author": "Thiago Santos",
   "license": "MIT",
-  "dependencies": {
-    "array-includes": "^3.0.2"
-  },
+  "dependencies": {},
   "devDependencies": {
     "husky": "^0.13.1",
     "nyc": "^10.1.2",
