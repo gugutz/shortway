@@ -1,7 +1,5 @@
-'use strict'
-
-const test = require('tape')
-const shortway = require('../lib/shortway')
+import test from 'tape'
+import shortway from '../lib/shortway'
 
 test('curried function', t => {
   t.equal(typeof shortway('ctrl'), 'function', 'should return a function')
