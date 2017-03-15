@@ -1,4 +1,6 @@
 # Shortway
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/thiamsantos/shortway.svg)](https://greenkeeper.io/)
 [![Travis](https://img.shields.io/travis/thiamsantos/shortway.svg)](https://travis-ci.org/thiamsantos/shortway)
 [![Coveralls](https://img.shields.io/coveralls/thiamsantos/shortway.svg)](https://coveralls.io/github/thiamsantos/shortway?branch=master)
 [![npm (scoped)](https://img.shields.io/npm/v/shortway.svg)](https://www.npmjs.com/package/shortway)
