@@ -55,6 +55,7 @@ Shortway current supports ctrl, alt and shift along with the following shortcuts
 - a-z
 - f1-f12
 - Arrows: left, top, right, down
+- slash: /
 
 ## API
 
