@@ -50,11 +50,20 @@ document.querySelector('input').addEventListener('keypress', customShortcut)
 Shortway current supports ctrl, alt and shift along with the following shortcuts:
 
 - backspace
+- tab
+- enter
+- esc
 - space
+- pageup
+- pagedown
+- end
+- home
 - 0-9
 - a-z
 - f1-f12
 - Arrows: left, top, right, down
+- insert
+- delete
 - slash: /
 
 ## API
