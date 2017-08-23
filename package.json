@@ -9,7 +9,7 @@
     "prepush": "npm run precommit",
     "build": "rollup -c --environment build:cjs && rollup -c --environment build:umd",
     "test": "tape -r babel-register \"test/**/*.js\"",
-    "lint": "xo test/**/*.js lib/**/*.js",
+    "lint": "xo test/**/*.js lib/**/*.js --fix",
     "coveralls": "nyc npm test && nyc report --reporter=text-lcov | coveralls",
     "test:watch": "tape-watch -r babel-register \"test/**/*.js\""
   },
