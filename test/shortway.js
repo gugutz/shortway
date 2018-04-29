@@ -11,7 +11,7 @@ test('ctrl+9', t => {
   const shortcut = shortway('ctrl+9', () => {
     expected = 'expected'
   })
-  shortcut({ctrlKey: true, altKey: false, shiftKey: false, keyCode: 57})
+  shortcut({ctrlKey: true, metaKey: false, altKey: false, shiftKey: false, keyCode: 57})
   t.equal(expected, 'expected')
   t.end()
 })
@@ -21,7 +21,7 @@ test('ctrl+9', t => {
   const shortcut = shortway('ctrl+9', () => {
     expected = 'expected'
   })
-  shortcut({ctrlKey: true, altKey: false, shiftKey: false, keyCode: 53})
+  shortcut({ctrlKey: true, metaKey: false, altKey: false, shiftKey: false, keyCode: 53})
   t.notEqual(
     expected,
     'expected',
