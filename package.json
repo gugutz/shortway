@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thiamsantos/shortway.git"
+    "url": "git+https://github.com/gugutz/shortway.git"
   },
   "keywords": [
     "browser",
@@ -43,7 +43,7 @@
     "sourceMaps": "inline"
   },
   "bugs": {
-    "url": "https://github.com/thiamsantos/shortway/issues"
+    "url": "https://github.com/gugutz/shortway/issues"
   },
   "xo": {
     "esnext": true,
@@ -58,8 +58,8 @@
     "space": true,
     "semicolon": false
   },
-  "homepage": "https://github.com/thiamsantos/shortway#readme",
-  "author": "Thiago Santos",
+  "homepage": "https://github.com/gugutz/shortway#readme",
+  "author": "Gustavo P Borges",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.22.1",

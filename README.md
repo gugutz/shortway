@@ -1,13 +1,13 @@
 # Shortway
-[![Travis](https://img.shields.io/travis/thiamsantos/shortway.svg)](https://travis-ci.org/thiamsantos/shortway)
-[![Coveralls](https://img.shields.io/coveralls/thiamsantos/shortway.svg)](https://coveralls.io/github/thiamsantos/shortway?branch=master)
+[![Travis](https://img.shields.io/travis/gugutz/shortway.svg)](https://travis-ci.org/gugutz/shortway)
+[![Coveralls](https://img.shields.io/coveralls/gugutz/shortway.svg)](https://coveralls.io/github/gugutz/shortway?branch=master)
 [![npm (scoped)](https://img.shields.io/npm/v/shortway.svg)](https://www.npmjs.com/package/shortway)
-[![David](https://img.shields.io/david/thiamsantos/shortway.svg)](https://david-dm.org/thiamsantos/shortway)
+[![David](https://img.shields.io/david/gugutz/shortway.svg)](https://david-dm.org/gugutz/shortway)
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
 
 Tiny to library to handle keyboard shortcuts in the browser. Feel free to use it with any kind of keyboard events and attach them to any element that you want.
 
-[Try shortway live on codepen!](http://codepen.io/thiamsantos/full/YNEadb/)
+[Try shortway live on codepen!](http://codepen.io/gugutz/full/YNEadb/)
 
 ## Install
 This project uses [node](http://nodejs.org) and [npm](https://npmjs.com). Go check them out if you don't have them locally installed.
@@ -97,4 +97,4 @@ shortway('r', callback)
 See the [contributing file](CONTRIBUTING.md).
 
 ## License
-[MIT License](LICENSE.md) &copy; [Thiago Santos](https://thiamsantos.github.io/)
+[MIT License](LICENSE.md) &copy; [Gustavo P Borges](https://gugutz.github.io/)
