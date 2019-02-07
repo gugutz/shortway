@@ -3,9 +3,17 @@ node_js:
   - '4'
   - '6'
   - 'node'
-script:
-  - npm test
-  - npm run lint
-after_script:
-  - npm install --global coveralls
-  - npm run coveralls
+jobs:
+  include:
+    - stage: Lint and test
+      name: Test
+      script: npm test
+    - script: npm run lint
+      name: Lint
+    - stage: deploy
+      node_js: 'node'
+      if: branch = master
+      name: Release to npm
+      script: npm run semantic-release
+    - script: npm run coveralls
+      name: Coveralls
