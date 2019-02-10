@@ -1,11 +1,11 @@
 # Shortway
-[![Travis](https://img.shields.io/travis/gugutz/shortway.svg)](https://travis-ci.org/gugutz/shortway)
-[![Coveralls](https://img.shields.io/coveralls/gugutz/shortway.svg)](https://coveralls.io/github/gugutz/shortway?branch=master)
 [![npm (scoped)](https://img.shields.io/npm/v/shortway.svg)](https://www.npmjs.com/package/shortway)
-[![David](https://img.shields.io/david/gugutz/shortway.svg)](https://david-dm.org/gugutz/shortway)
+[![build status](https://img.shields.io/travis/gugutz/shortway.svg)](https://travis-ci.com/gugutz/shortway)
+[![coverage status](https://img.shields.io/coveralls/github/gugutz/bulma-ui.svg?style=flat)](https://coveralls.io/github/gugutz/bulma-ui?branch=master)
+[![dependencies status](https://img.shields.io/david/gugutz/shortway.svg?style=flat)](https://david-dm.org/gugutz/shortway)
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
 
-Tiny to library to handle keyboard shortcuts in the browser. Feel free to use it with any kind of keyboard events and attach them to any element that you want.
+A very small and dependency-free library to handle keyboard shortcuts in the browser. Feel free to use it with any kind of keyboard events and attach them to any element that you want.
 
 [Try shortway live on codepen!](http://codepen.io/gugutz/full/YNEadb/)
 
